@@ -1,0 +1,46 @@
+# OS / Editor
+*.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.orig
+*.bak
+.idea/
+.vscode/
+*.iml
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+*/.venv/
+*/venv/
+
+# Logs & runtime
+logs/
+*.log
+*.pid
+*.pid.lock
+*.dmp
+servers/**/server.pid
+servers/**/logs/
+
+# Temp / backup
+*.tmp
+*.temp
+tmp/
+~$*
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.envrc
+*.pem
+*.key
+
+# build output
+target/
+node_modules/
+package-lock.json
